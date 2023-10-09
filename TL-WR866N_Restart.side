@@ -1,0 +1,177 @@
+{
+  "id": "6b96eb02-c558-4626-8c02-5bfb987a0f6b",
+  "version": "2.0",
+  "name": "TL-WR866N_Restart",
+  "url": "http://192.168.0.1",
+  "tests": [{
+    "id": "247608bf-77ac-4915-bd48-d043f570e7ea",
+    "name": "TL-WR866N_Restart",
+    "commands": [{
+      "id": "ec1b96a8-391e-4bdf-8057-45453a275d86",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be9c9b8f-fdc5-45a7-97ea-fdfc34f69d76",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x912",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d631926-d729-4473-b3dd-5d24141f7a05",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "622de1bf-d6aa-48b7-ab64-179396d45173",
+      "comment": "",
+      "command": "click",
+      "target": "id=a38",
+      "targets": [
+        ["id=a38", "id"],
+        ["linkText=系统工具", "linkText"],
+        ["css=#a38", "css:finder"],
+        ["xpath=//a[contains(text(),'系统工具')]", "xpath:link"],
+        ["xpath=//a[@id='a38']", "xpath:attributes"],
+        ["xpath=//ol[@id='ol38']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/userRpm/DateTimeCfgRpm.htm')]", "xpath:href"],
+        ["xpath=//ol[39]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'系统工具')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3d2c246-3ed4-418c-8089-8bbcb3160222",
+      "comment": "",
+      "command": "click",
+      "target": "id=a38",
+      "targets": [
+        ["id=a38", "id"],
+        ["linkText=系统工具", "linkText"],
+        ["css=#a38", "css:finder"],
+        ["xpath=//a[contains(text(),'系统工具')]", "xpath:link"],
+        ["xpath=//a[@id='a38']", "xpath:attributes"],
+        ["xpath=//ol[@id='ol38']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/userRpm/DateTimeCfgRpm.htm')]", "xpath:href"],
+        ["xpath=//ol[39]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'系统工具')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4568416c-144d-4d62-8a16-6b7bbec2b6b8",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=a38",
+      "targets": [
+        ["id=a38", "id"],
+        ["linkText=系统工具", "linkText"],
+        ["css=#a38", "css:finder"],
+        ["xpath=//a[contains(text(),'系统工具')]", "xpath:link"],
+        ["xpath=//a[@id='a38']", "xpath:attributes"],
+        ["xpath=//ol[@id='ol38']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/userRpm/DateTimeCfgRpm.htm')]", "xpath:href"],
+        ["xpath=//ol[39]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'系统工具')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a9e1b2f-aa7d-47be-bcb6-a4e07afd042f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ol44",
+      "targets": [
+        ["id=ol44", "id"],
+        ["css=#ol44", "css:finder"],
+        ["xpath=//ol[@id='ol44']", "xpath:attributes"],
+        ["xpath=//ol[45]", "xpath:position"],
+        ["xpath=//ol[contains(.,'重启路由器')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2102622a-d310-4d90-9026-d9684b8c7ff4",
+      "comment": "",
+      "command": "click",
+      "target": "id=a44",
+      "targets": [
+        ["id=a44", "id"],
+        ["linkText=重启路由器", "linkText"],
+        ["css=#a44", "css:finder"],
+        ["xpath=//a[contains(text(),'重启路由器')]", "xpath:link"],
+        ["xpath=//a[@id='a44']", "xpath:attributes"],
+        ["xpath=//ol[@id='ol44']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/userRpm/SysRebootRpm.htm')]", "xpath:href"],
+        ["xpath=//ol[45]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'重启路由器')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25838c6a-23ec-4150-850d-40844f32732f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa5cf95b-a708-4b64-b21c-4fe903d9840a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=4",
+      "targets": [
+        ["index=4"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec2c653d-8cbd-4dc3-ad15-cde1bc19095e",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b092aa8-86ee-4e1e-a100-0b921f6945c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=reboot",
+      "targets": [
+        ["id=reboot", "id"],
+        ["name=Reboot", "name"],
+        ["css=#reboot", "css:finder"],
+        ["xpath=//input[@id='reboot']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32441c34-93d0-46c7-84ed-4337acbcab61",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "确认重新启动路由器？",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc72d29f-f6b8-414d-8e47-f74f7c294947",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9a043b2a-7f5c-4365-912e-67758a628661",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["247608bf-77ac-4915-bd48-d043f570e7ea"]
+  }],
+  "urls": ["http://192.168.0.1/"],
+  "plugins": []
+}
